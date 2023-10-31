@@ -1,0 +1,81 @@
+/* Couleurs et fond */
+
+h1, h2, h3 {
+	font-family: 'OCR A Std', monospace;
+	background-color: #C9C5BA;
+	color: black;
+}
+h1 {
+	font-weight: 700;
+    font-size: 55px;
+    margin: 10px 10px;
+}
+
+h2 {
+	font-weight: 550;
+	font-size: 35px;
+	margin: 10px 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: white;
+}
+
+body {
+	
+	background-image: url('images/fond.jpg');
+	background-color: #B8B08D;
+	color: #B8B08D;
+}
+p {
+	font-family: 'OCR A Std', monospace;	
+	font-family: 'Lora', serif;
+	font-weight: lighter;
+	color: rgb(30, 30, 30);
+	font-size: 18px;
+}
+
+
+
+/* Custom */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #C9C5BA;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 2px;
+	margin: 35px 50px ;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 20%;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 30px;	
+}
+.list-horizontal i {
+	font-size: 50px;
+	color: black;
+}
+.list-horizontal i:hover {
+	color: white;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
